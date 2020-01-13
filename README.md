@@ -1,4 +1,4 @@
-# ML_cousework
+# ML_coursework
 This is a repository for Machine learning coursework from Cardiff University. 
 
 ### Getting started
