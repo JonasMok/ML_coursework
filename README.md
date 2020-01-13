@@ -139,11 +139,11 @@ After pre-processing features, now we can train our machine learning model on tr
 svm_review = sklearn.svm.SVC(kernel="linear",gamma='auto')
 model = svm_review.fit(X_df,df_train.label)
 ```
-Then, after we trainned our model and we comfortable with the inital results from trained model, we can put it to run on the test data set and get some predictions with our model. 
+Then, after we trainned our model and we are comfortable with the inital results from trained model, we can put it to run on the test data set and get some predictions with our model. 
 ```
 predictions  = model.predict(X_df_test)
 ```
-### Print precision, recall, f-measure and accuracy of the model.
+### Print confusion matrix, precision, recall, f-measure and accuracy of the model.
 ```
 print(confusion_matrix(df_test.label,predictions))
 print(classification_report(df_test.label,predictions))
