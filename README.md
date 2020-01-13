@@ -103,7 +103,7 @@ Feature extraction/engineering are techniques for treating, extracting and reduc
   
 This exercise applied the follow feature extractions methods using sklearn packages: 
 - Vectorization
-- Bag-of-words with n-gram range
+- Bag-of-words with 3-gram range
 - Stop words
 - Lemmatization 
 
