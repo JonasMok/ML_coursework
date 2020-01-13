@@ -6,7 +6,7 @@ This repository is a part of Machine Learning (ML) coursework from MSc. Data Sci
 
 ### Dataset 
 
-The dataset used in this exercise was avaliable on the intranet of the ML course. However, for those who wants to access it, this file is based IMDb Reviews. Go to the site and look for “Large Movie Review Dataset v1.0” and dowloaded it. After it, you can find in your downloaded folder a file called aclImdb_v1.tar.gz. Unpack it and save it on the same folder where you run your python file. After unpacked it, the dataset is provided as text files with positive and negative reviews.  On the courserwork dataset file, the core dataset contains 25,000 reviews split into train, development and test sets. The overall distribution of labels is roughly balanced. 
+The dataset used in this exercise is avaliable in this repository. However, for those who wants to access it, this file is based IMDb Reviews. Go to the site and look for “Large Movie Review Dataset v1.0” and dowloaded it. After it, you can find in your downloaded folder a file called aclImdb_v1.tar.gz. Unpack it and save it on the same folder where you run your python file. After unpacked it, the dataset is provided as text files with positive and negative reviews.  On the courserwork dataset file, the core dataset contains 25,000 reviews split into train, development and test sets. The overall distribution of labels is roughly balanced. 
 
 ### Files
 
