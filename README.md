@@ -11,7 +11,7 @@ The dataset used in this exercise is avaliable in this repository. However, for 
 ### Files
 
 There are two files: 
-- Data set (Each folder contains files with negative and positive reviews one review per line)
+- Data set (it has 3 folders - train, develop and test. Each folder contains files with negative and positive reviews one review per line)
 - One Python code and;
 
 This exercise was build to run in python using terminal. In order to better execute these instructions, I suggest to download the csv files avaliable here and save it in the same paste where the python file was saved.   
