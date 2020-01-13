@@ -99,7 +99,7 @@ df_test.columns = ['text','label']
 ```
 
 ### Features extraction 
-Feature extraction/engineering are techniques for treating, extracting and reducing features to input in the machine learning models. It can reduces the time of the machine learning process and increases accuracy of the model, due to the reduction of the dimensions without losing important information. For this reason, feature extraction is essential to effetive machine learning model. This exercise applied the follow pre profeature extractions methods using sklearn packages: 
+Feature extraction/engineering are techniques for treating, extracting and reducing features to input in the machine learning models. It can reduces the time of the machine learning process and increases accuracy of the model, due to the reduction of the dimensions without losing important information. For this reason, feature extraction is essential to effetive machine learning model. his exercise applied the follow preprocessing and feature extractions methods: 
 
 - Vectorization
 - Bag-of-words with 3-gram range
