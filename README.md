@@ -99,7 +99,7 @@ df_test.columns = ['text','label']
 ```
 
 ### Features extraction 
-Feature extraction/engineering are techniques for treating, extracting and reducing features to input in the machine learning models. It can reduces the time of the machine learning process and increases accuracy of the model, due to the reduction of the dimensions without losing important information. For this reason, feature extraction is essential to effetive machine learning model. his exercise applied the follow preprocessing and feature extractions methods: 
+Feature extraction/engineering are techniques for treating, extracting and reducing features to input in the machine learning models. It can reduces the time of the machine learning process and increases accuracy of the model, due to the reduction of the dimensions without losing important information. For this reason, feature extraction is essential to effetive machine learning model. This exercise applied the follow preprocessing and feature extractions methods: 
 
 - Vectorization
 - Bag-of-words with 3-gram range
@@ -132,7 +132,7 @@ X_df = pd.DataFrame(my_array, columns=vect.get_feature_names())
 X_df_test = pd.DataFrame(my_array_test, columns=vect.get_feature_names())
 ```
 ### Model - SVM model
-After pre-processing features, now we can train our machine learning model on train data set. I am using the SVM from sklearn package here. If it is necessary, we can use the development data set to do new features extraction tests, before put the model to run in test data set.   
+After preprocessing and extract features, now we can train our machine learning model on train data set. I am using the SVM from sklearn package here. If it is necessary, we can use the development data set to do new features extraction tests, before put the model to run in test data set.   
 
 ```
 svm_review = sklearn.svm.SVC(kernel="linear",gamma='auto')
